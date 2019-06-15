@@ -1,0 +1,182 @@
+MY CONCEPT
+
+INTELLIGENT TRAFFIC MONITORING SYSTEM.
+
+Trafﬁc congestion in cities is a major problem mainly in developing countries to encounter this, many models of trafﬁc system have been proposed by different developers. Different ways have been proposed to make the trafﬁc system smarter, reliable, and robust. 
+
+1.	Introduction
+The trafﬁc jam is a daily-life problem in any metropolitan city. With the rise of standard of living, the number of vehicles is increasing at an exponential rate. In response to this, many researches have been done in developing an intelligent trafﬁc system (ITS), i.e., a trafﬁc system which is involved in a much closer interaction with all the components of a trafﬁc including vehicles, drivers, and even pedestrian. It not only provides safety at intersections and prevents trafﬁc jam, but manages the trafﬁc as a whole. Developed countries like America, Japan, and U.K. have already implemented such systems on their roads and still many researches are going on to make trafﬁc systems more advanced and suitable for developing countries also. Apart from surveying various research works on ITS, my concept proposes a model which follows a simple algorithm based on the length of trafﬁc on each lane. The length of trafﬁc on the other lanes affects the time allocated to the current lane. Proximity sensors instead of WAN are to be used to determine the length of the trafﬁc. The proposed idea can reduce the trafﬁc in all lanes proportionately reducing the chances of congestion without the use of WANs. Besides, it also manages the occurrence of any emergency vehicles such as ambulance, ﬁre brigade, etc. in any lane and also provides the mechanism to detect the route of a vehicle. Once implemented, it does not require any human assistance for its working.
+ 
+
+
+
+ 2. Classiﬁcation of ITS
+ITS is being researched and implemented through various means such as the use of wireless sensor networks, RFID, applying various concepts of graph theory to ﬁnd the minimized path and many other. Here, the concept of ITS has been classiﬁed into two broad domains, namely:
+(I)	real-time system and 
+(II)	Data analysis system.
+Real-time systems have been further diversiﬁed into two ﬁelds:
+I.	Path optimization and
+II.	 II. Trafﬁc density. 
+While the data analysis systems are also divided into two parts:
+i.	Green light optimization, 
+ii.	Information chaining systems
+
+2.1 Real-Time Systems
+Real-time systems in case of trafﬁc managing system take the input of the current situation through video surveillance or WSNs and deal with the situation. The trafﬁc signals are controlled according to the presence of vehicles and are operated automatically in real time. A real-time optimization model was used by Dotolie et al. [1] that investigated the issue of trafﬁc control in urban areas. The model took into considerations the trafﬁc scenarios which also include pedestrians. This technique was applied for analyzing real case studies. Wenjie et al. [2] concentrate on calculating the time that a vehicle requires to reach the intersection from a particular point, dynamically, by the use of sensors. By this, data performs various calculations to ﬁnd the green light length. Albers et al. [3] used real-time data to monitor current trafﬁc ﬂows in a junction so that the trafﬁc could be controlled in a convenient way. Reliable short-term forecasting video captured in a recorder plays an important role in monitoring the trafﬁc management system. The data required can be easily provided by the CCTV cameras that can be beside the roads as per requirement. Van Daniker [4] visualized the use of transportation incident management explorer (TIME) for calculating real-time data. Challal et al. [5] proposed a distributed wireless network of vehicular sensors to get a view of the actual scenario and used its various sectors to lower the congestion but not taking decisions in real-time. The use of two types of sensor network was proposed, vehicular sensor network and wireless sensor network, and the combination of these two permits the monitoring as well as managing of the trafﬁc. Chandak et al. [6] used video surveillance for realizing the real-time scenario. It deals with decreasing response time of the emergency cars by establishing communication between emergency cars and trafﬁc lights. The data collected in real time can be used to determine the trafﬁc density and also based on the trafﬁc present. Several path optimization techniques can be used, which are discussed in the next sections.
+
+2.1.1 Trafﬁc Density
+Realization of the trafﬁc density at a particular intersection for a given time can also help in reducing trafﬁc congestion at that point. This data can be analyzed to determine several factors like green light length, trafﬁc at the particular time, etc.Zhou et al. [7] used the concept of adaptive trafﬁc light control algorithm which manipulates both the sequence and length of trafﬁc lights in accordance with the detected trafﬁc. The algorithm uses real-time data like the waiting time of vehicles, volume of trafﬁc in each lane, etc. to determine trafﬁc light sequence and optimal length of green light. The algorithm produces lower vehicle’s average waiting time, thus providing much higher throughput. The system proposed by Sinhmar [8] used IR sensors to determine the density of trafﬁc based on which the trafﬁc signals were updated to provide a smooth ﬂow of vehicles. Hussain et al. [9] proposed a system that uses a central microcontroller at every junction which receives data wireless sensor placed along the road that determines the trafﬁc density. The microcontroller uses this data to control the trafﬁc using the programed algorithm to manage the trafﬁc in an efﬁcient manner. Srivastava et al. [10] suggested ways to determine the number of vehicles using weight sensors, then with the use of a programmable logic controller to analyze the data, and then park in automated parking or has diverge them accordingly.
+
+2.1.2 Path Optimization Technique
+Finding the best and shortest path to destination can be used as a tool to minimize the trafﬁc along a path. The trafﬁc along the road can be sent to the incoming vehicle proving them the idea about the trafﬁc and thus they can take an alternative path to the destination. Gambardella [11] and Bertelle et al. [12] proposed to ﬁnd an optimized path for transportation using the concept of ant colony optimization. Once an optimized path is found, we can add several other features to make it more convenient and avoid trafﬁc jams. Ozkurt et al. [13] proposed the use of video surveillance and neural network to reduce the trafﬁc stress across the network. Xia[14] researched to ﬁnd an optimal road network and analyze the trafﬁc dynamics by the movement of each car and the statistical property of the whole network. Kale et al. [15] designed a system that uses the trafﬁc information and sends it to the incoming ambulance by allowing it take way according to the situation. The various performance evaluation criteria are used such as average waiting time, the average distance traveled by vehicles, and switching frequency of green light at a junction.
+2.2	Data Analysis Systems
+
+Data analytical systems are those systems that take the present or statistical data, process them in the processor, and then act according to predeﬁned algorithm. Like real-time systems, it may collect data in real time, but is unable to take any decision in real time, i.e., it must follow the instructions that are provided to it. Yousef et al.[16] suggested a scheme of solving trafﬁc congestion in terms of the average waiting time and length of the queue at the isolated intersection and provide efﬁcient ﬂow in global trafﬁc control on multiple intersections with the accordance of real-time data. Thus, the data collected can be used in various ways depending on the perspective of the user. The next two sections deﬁne such ways of using the data number of vehicles using weight sensors, then with the use of a programmable logic controller to analyze the data, and then park in automated parking or has diverge them accordingly.
+
+2.1.2 Path Optimization Technique
+
+Finding the best and shortest path to destination can be used as a tool to minimize the trafﬁc along a path. The trafﬁc along the road can be sent to the incoming vehicle proving them the idea about the trafﬁc and thus they can take an alternative path to the destination. Gambardella [11] and Bertelle et al. [12] proposed to ﬁnd an optimized path for transportation using the concept of ant colony optimization. Once an optimized path is found, we can add several other features to make it more convenient and avoid trafﬁc jams. Ozkurt et al. [13] proposed the use of video surveillance and neural network to reduce the trafﬁc stress across the network. Xia [14] researched to ﬁnd an optimal road network and analyze the trafﬁc dynamics by the movement of each car and the statistical property of the whole network. Kale et al. [15] designed a system that uses the trafﬁc information and sends it to the incoming ambulance by allowing it take way according to the situation. The various performance evaluation criteria are used such as average waiting time, the average distance traveled by vehicles, and switching frequency of green light at a junction.
+
+2.2 Data Analysis Systems
+
+Data analytical systems are those systems that take the present or statistical data, process them in the processor, and then act according to predeﬁned algorithm. Like real-time systems, it may collect data in real time, but is unable to take any decision in real time, i.e., it must follow the instructions that are provided to it. Yousef et al. [16] suggested a scheme of solving trafﬁc congestion in terms of the average waiting time and length of the queue at the isolated intersection and provide efﬁcient ﬂow in global trafﬁc control on multiple intersections with the accordance of real-time data. Thus, the data collected can be used in various ways depending on the perspective of the user. The next two sections deﬁne such ways of using the data. 2.2.1 Information Chaining System. The data collected at one junction can be sent to the other junction informing it about the situation and allowing it to take measures. The same can be used in case of cars, ambulance, and other vehicles. This is quite similar to the path optimization technique, but here the path that would be taken by the user is not suggested by the system, and it just warns the others in case of any unwanted situation. Malik et al. [17] described the trafﬁc control on a real-time basis using the trafﬁc lights. Wireless sensors are deployed on each of the lanes that are able to detect number of
+Vehicles passing and also the awaited vehicles and convey the information to the nearest control station. Blessy et al. [18] proposed a system that uses other vehicles to deliver messages about any congested path. They used an adjustable ﬁeld radar-based system, vehicle controller sensor, which senses the count of the vehicles, rejecting the humans for certain distances. GSM service is used to send information about the congested junction to the server located in a remote location which in turn will inform its adjacent signal junction and also to other drivers about the congestion, forming a chain-like structure informing one another and suggesting them to change route if necessary system, and it just warns the others in case of any unwanted situation. Malik et al. [17] described the trafﬁc control on a real-time basis using the trafﬁc lights. Wireless sensors are deployed on each of the lanes that are able to detect number of vehicles passing and also the awaited vehicles and convey the information to the nearest control station. Blessy et al. [18] proposed a system that uses other vehicles to deliver messages about any congested path. They used an adjustable ﬁeld radar-based system, vehicle controller sensor, which senses the count of the vehicles, rejecting the humans for certain distances. GSM service is used to send information about the congested junction to the server located in a remote location which in turn will inform its adjacent signal junction and also to other drivers about the congestion, forming a chain-like structure informing one another and suggesting them to change route if necessary.
+
+2.2.2 Green Light Optimization
+
+One of the main causes of trafﬁc congestion is large red light delays, so controlling trafﬁc signals and optimizing the length of the green light will become helpful.Chen et al. [19] have given the solution for minimizing waiting time of vehicles by testing the setting problems of trafﬁc light. Here, the graph model is used to represent the trafﬁc network. In order to achieve optimal solution [20–24], my concept has used particle swarm optimization [25,26], ant colony optimization [27] and genetic algorithms which have greater importance. Soh et al. [28] presented a MATLAB simulation of fuzzy trafﬁc controller for controlling trafﬁc ﬂow in the multilane isolated signalized intersection. The controller controls the trafﬁc light timings and phase sequence to ensure smooth ﬂow of trafﬁc with minimal waiting time, queue length, and delay time. Jantan et al. [29] proposed monitoring system in addition to the trafﬁc light system to determine different street cases (e.g., empty, normal, crowded) with different weather conditions using small associative memory depending on the stream of images, which are extracted from the streets ‘video recorders. It also gives a high ﬂexibility to learn different street cases using different training images. Placzek [30] described a method which is designed to be implemented in an online simulation environment that enables optimization of adaptive trafﬁc control strategies. Performance measures are computed using a fuzzy cellular trafﬁc model, formulated as a hybrid system combining both cellular automata and fuzzy calculus. Dakhole et al. [31] used ARM7-based trafﬁc control system that proposes a multiple trafﬁc light control and monitoring system that reduce the possibilities of trafﬁc jams, caused by trafﬁc lights. This system uses ATmega16 and ARM7 for its processing. Jaiswal et al. [32] described the optimization of trafﬁc signals by focusing on three areas Ambulance, priority vehicles (like VIP cars, police jeeps), and Trafﬁc density control—thus providing a stoppage free path for ambulances, preventing trafﬁc congestion, and also managing trafﬁc density by increasing duration of green light of the lane where density is high (Table 1).
+
+Table 1 Summarization of classiﬁcation of ITS
+
+
+ 
+ 
+
+
+3 Proposed Method
+
+The proposed model mainly concentrates on the following factors:
+I.	Unnecessary consumption of the time slice in a certain lane, when there are fewer vehicles.
+II.	If any lane has any emergency vehicle such as ambulance, it also has to wait for its turn.
+III.	A lane with less or more trafﬁc has to wait for the same time span.
+Normally, the green signal in the trafﬁc light remains on for a ﬁxed interval for each road. In the existing system, congestion of vehicles may happen if lots of vehicles are waiting in a particular lane and the other lane which has fewer numbers of vehicles is made free
+
+3.1 Hardware Implementation of the Method
+
+In the proposed model, infrared proximity sensor, AT Mega 2560, and RF modules
+Have to design the system. The infrared sensors will be used to collect data from the lane and fetch the collected data to the microcontroller. In each road, there will be four infrared sensors which will be placed at a certain distance from the intersection, placed on either side of the roads in pair dividing the considered length of the road from the intersection into two zones—a high density zone and low density zone. The presence of vehicles in each region is sensed by two proximity infrared sensors placed at either side of the road in the opposite direction. The sensors are placed by keeping a certain distance so that they do not have an intersection point. The use of two sensors eliminates the factor if “vehicles are present along one side only,”i.e., it gives us the real view in what manner the vehicles are aligned along the road. The sensors are connected to the analog pins of the microprocessor and the trafﬁc lights to the digital pins. While placing the sensors, it is to be kept in mind that the range of the sensors does not intersect, which will result in erroneous data read (Fig. 1)
+
+ 
+3.2 Prioritizing the Lanes
+
+Moreover, it gives us the option to classify the density into multiple values. Like, if all the four sensors of one lane sense the value low, then there will be no trafﬁc and the priority assigned is zero in this case. When both the two sensors in low intensity zone sense the value as low, but both the sensors in high intensity zone sense the value as high, then this case will not be considered, and it is not possible. Suppose one of the two sensors in low intensity zones gives the value as high, but the two sensors in high intensity zone sense the value as low, which will indicate that the trafﬁc is very less in this lane and the priority assigned is one. If two sensors from the same side one from low and the other from the high intensity zone sense the value as high, then it will indicate that one side of both zones is full and the other side is free from trafﬁc and the priority assigned is two. Then if both the sensors in low intensity zone sense the value as high, but the sensors in high intensity zone sense the value as low, then the low intensity zone is full but no vehicle in the high intensity zone and the priority assigned is three. When both the sensors in low intensity zone sense the value as high and one of the sensors in high intensity zone senses the value as high, then it will indicate that low intensity zone is full but no vehicle in one side of the high intensity zone and the priority assigned is four. If all the four sensors provide the value as high, then it will indicate that there is vehicle in both the zones, i.e., both is full which gives high alert and priority assigned to this case is ﬁve (Fig. 2)
+ 
+
+3.3 Algorithm for the Control of Trafﬁc Lights
+
+The proposed algorithm initially senses the vehicular length of each lane and sets its priority and pushes it into the stack. The sequence in which the lanes are pushed will be executed in this sequence only. Sense_and_Set check the length of the vehicles and set their time accordingly, also keeps a check that the lane with lower priority initially may have acquired a higher priority than its preceding lane; in such case, the green light duration is to be provided to the present lane, and is decreased. The stack is popped after execution of each lane. Once the stack is empty, the lanes are once again pushed into the stack according to priority and executed accordingly
+
+  
+  Control_Algo 
+ 
+
+4. Conclusion
+
+The work presents review of the existing research done in ﬁeld and tries to develop a system suitable for developing countries. The project has two objectives, which are:
+I.	Calculating the length of the vehicles on the road for the ﬂow of the trafﬁc smoothly without congestion.
+II.	Second, developing priority-based signaling which will help to give the priority to the emergency vehicles such as ambulance.
+The microcontroller can be programed easily which gives scope for deployment better algorithms in future. The sensors are to be ﬁtted on the side of the roads and connected to the controller at the intersection. These are some hectic jobs which are to be dealt before implementing the system, but once implemented, it will make our trafﬁc system more convenient and cities smarter
+
+
+
+
+
+
+
+5. References
+1. Mariagrazia, D., Pia, F.M., Carlo, M.: Real time trafﬁc signal control: application to
+coordinated intersections. In: IEEE International Conference, vol. 4, pp. 3288, 3295. 5–8 Oct
+2003
+2. Wenjie, C., Lifeng, C., Zhanglong, C., Shiliang, T.: A realtime dynamic trafﬁc control system
+based on wireless sensor network, parallel processing, 2005. In: International Conference on
+ICPP Workshops, pp. 258–264. 14–17 June 2005, ISSN: 1530-2016, Print ISBN:
+0-7695-2381-1
+3. Queen, C.M., Albers, C.J., Forecasting trafﬁcﬂows in road networks: a graphical dynamic
+model approach, 29 July 2008
+4. VanDaniker M.: Visualizing real time and archived trafﬁc incident data. In: Proceedings of the
+10th IEEE International Conference on Information Reuse and Integration, pp. 206–211. IEEE
+Press Piscataway, ©2009, ISBN: 978-1-4244-4114-3
+5. Sharma, A., Chaki, R., Bhattacharya, U.: Wireless sensor networks. In: 3rd International
+Conference on ICECT, Jan 2011. doi:10.1109/ICECTECH.2011.5941955
+6. Amine Kaﬁ, M., Challal, Y., Djenouri, D., Bouabdallah, A., Khelladi, L., Badache, N.: A
+study of wireless sensor network architectures and projects for trafﬁc light monitoring. In:
+International Conference on Ambient Systems, Networks and Technologies, pp. 543–552, 28
+Aug 2012
+7. Zhou, B., Cao, J., Zeng, X., Wu, H.: Adaptive trafﬁc light control in wireless sensor
+network-based intelligent transportation MATLAB. In: Vehicular Technology Conference
+Fall, IEEE 72nd, pp. 1–5, 6 Sept 2010
+8. Promila Sinhmar, A.: Intelligent trafﬁc light and density control using ir sensors and
+microcontroller. Int. J. Adv. Technol. Eng. Res. 2(2), 30–35 (2012)
+9. Hussian, R., Sharma, S., Sharma, V., Sharma, S.: WSN applications: automated intelligent
+trafﬁc control system using sensors. Int. J. Soft Comput. Eng. 3(3), 77–81 (2013)
+10. Srivastava, M.D., Prerna, Sachin, S., Sharma, S., Tyagi, U.: Smart trafﬁc control system using
+PLC and SCADA. Int. J. Innov. Sci. Eng. Technol. 1(2), Dec 2012
+11. Gambardella Luca M.: Ant colony optimization for ad-hoc networks. In: The ﬁrst MICS
+workshop on routing for Mobile Ad-Hoc Networks, Zurich, 13 Feb 2003
+12. Cyrille, B., Antoine, D., Sylvain, L., Damien, O.: Road trafﬁc management based on ant
+system and regulation method (2006)
+13. Ozkurt, C., Camci, F.: Automatic trafﬁc density estimation and vehicle classiﬁcation for trafﬁc
+surveillance systems using neural network. Math. Comput. Appl. 14(3), 187–196 (2009
+14. Yongxiang, X., Trafﬁc control and optimization in road networks, 4 Sept 2009
+15. Kale, S.B., Dhok, G.P.: Design of intelligent ambulance and trafﬁc control. Int. J. Comput.
+Electron. Res. 2(2) 2013
+16. Yousef, K.M., Al-Karaki, J.N., Shatnawi, A.M.: Intelligent trafﬁc light ﬂow control system
+using wireless sensors networks (2010)
+17. Malik, T., Yi, S., Hongchi, S.: Adaptive trafﬁc light control with wireless sensor networks. In:
+Proceedings of IEEE Consumer Communications and Networking Conference, pp. 187–191,
+2007/1
+18. Blessy, A., Devi, Reeona: An automatic trafﬁc light management using vehicle sensor and
+GSM model. Int. J. Sci. Eng. Res. 4(6), 2354–2358 (2013)
+19. Shiuan-Wen, C., Chang-Biau, Y., Yung-Hsing, P.: Algorithms for the trafﬁc light setting
+problem on the graph model (1996)
+20. Dey, N., Samanta, S., Yang, X.-S., Chaudhri, S.S., Das, A.: Optimisation of scaling factors in
+electrocardiogram signal watermarking using cuckoo search. Int. J. Bio-Inspired Comput.
+(IJBIC) 5(5), 315–326 (2013). (Impact Factor: 1.681) (Science Citation Index, Scopus)
+21. Day, N., Samanta, S., Chakraborty, S., Das, A., Chaudhuri, S.S. Suri, J.S.: Fireﬂy algorithm
+for optimization of scaling factors during embedding of manifold medical information: an
+application in ophthalmology imaging. J. Med. Imaging Health Inform. (Impact Factor: 0.623)
+(Science Citation Index Expanded (SciSearch), Scopus)
+22. Samanta, S., Acharjee, S., Mukherjee, A., Das, D., Dey, D.: Ant Weight Lifting Algorithm for
+Image Segmentation, 2013 IEEE International Conference on Computational Intelligence and
+Computing Research(ICCIC), Madurai, Dec 26–28 2013 [IEEE Xplore]
+23. Samanta, S., Chakraborty, S., Acharjee, S., Mukherjee, A., Dey, N.: Solving 0/1 Knapsack
+Problem using Ant Weight Lifting Algorithm. In: 2013 IEEE International Conference on
+Computational Intelligence and Computing Research(ICCIC), Madurai, Dec 26–28
+2013 [IEEE Xplore]
+24. Chakraborty, S., Pal, A.K., Dey, N., Das, D., Acharjee, S.: Foliage Area Computation using
+Monarch Butterﬂy Algorithm. In: 2014 International Conference on Non Conventional Energy
+(ICONCE 2014), JIS college of Engineering, Kalyani, January 16–17, 2014. [IEEE Xplore]
+25. Dey, N., Chakraborty, S., Samanta, S.: Optimization of watermarking in biomedical signal.
+Lambert Publication, Heinrich-Böcking-Straße 6, 66121 Saarbrücken, ISBN-13:
+978-3-659-46460-7
+26. Chakraborty, S., Samanta, S., Mukherjee, A., Dey, N., Chaudhuri, S.S.: Particle Swarm
+Optimization Based Parameter Optimization Technique in Medical Information Hiding. In:
+2013 IEEE International Conference on Computational Intelligence and Computing Research
+(ICCIC), Madurai, Dec 26–28 2013 [IEEE Xplore]
+27. Jagatheesan, K., Anand, B., Dey, N.: Automatic Generation Control of
+Thermal-Thermal-Hydro power systems with PID controller using Ant Colony
+Optimization, International Journal of Service Science, Management, Engineering, and
+Technology (IJSSMET), Vol 6, Issue 2
+28. Azura Che Soh/Lai Guan Rhung: MATLAB simulation of fuzzy trafﬁc controller for multilane
+isolated intersection. Int. J. Comput. Sci. Eng. 02(04), 924–933 (2010)
+29. Emad, I., Kareem, A., Jantan, A.: An intelligent trafﬁc light monitor system using an adaptive
+associative memory. Int. J. Inf. Process. Manag. 2, 2(2.4), 23–39 (2011)
+30. Placzek, B.: Performance evaluation of road trafﬁc control using a fuzzy cellular model. In: 6th
+International Conference on HAIS, Wroclaw, pp. 59–66. Proceedings, Part II, 23–25 May
+2011
+31. Dakhole, A.Y., Moon, M.P.: Design of intelligent trafﬁc control system based on ARM.
+J. VLSI Signal Proc. 4(4), 37–40 (2014). Ver. I
+32. Jaiswal, S., Agarwal, T., Singh, A., Lakshita, : Intelligent trafﬁc control unit. Int. J. Electr.
+Electron. (ISSN NO. (Online): 27-2626 and Computer Engineering 2(2), 6–72 (2013)
+
+
